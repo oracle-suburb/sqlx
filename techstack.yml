@@ -1,0 +1,81 @@
+repo_name: oracle-suburb/sqlx
+report_id: c8c94c62d5caac19e0a1290d8a05dad4
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-12T08:25:32+00:00'
+requested_by: jmoiron
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx
+  detection_source: Repo Metadata
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Jason Moiron
+  last_updated_on: 2018-10-16 04:21:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jason Moiron
+  last_updated_on: 2018-02-28 05:06:01.000000000 Z
+- name: 'go '
+  description: Go will make you love programming again. I promise.
+  website_url: https://golang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3458/v02jhlxou71qagr6mwet_normal.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx/blob/master/bind.go
+  detection_source: bind.go
+  last_updated_by: Jason Moiron
+  last_updated_on: 2013-06-07 05:22:14.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/oracle-suburb/sqlx/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: xbjiang
+  last_updated_on: 2021-04-23 07:08:56.000000000 Z
